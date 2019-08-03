@@ -23,9 +23,9 @@ namespace SeleniumChrome
             string url = "https://student.tdt.edu.vn/taikhoan/dangnhap?ReturnUrl=https%3a%2f%2fstudent.tdt.edu.vn%3a443%2f";
             driver.Url = url;
             IWebElement webE = driver.FindElement(By.Id("MSSV"));
-            webE.SendKeys("51603357");
+            webE.SendKeys("");
             webE = driver.FindElement(By.Id("MK"));
-            webE.SendKeys("Tubakemon1998");
+            webE.SendKeys("");
             webE = driver.FindElement(By.CssSelector("input[type='submit']"));
             webE.Click();
             webE = driver.FindElement(By.Id("popup-thong-bao-off"));
